@@ -40,6 +40,14 @@ g2o:
 - in ```build/``` directory (```cd build```): ```cmake ../```
 - in ```build/``` directory: ```make```
 
+### building g2o in parallel:
+```
+cd g2o
+mkdir build
+cmake ../ -GNinja
+cd ..
+cmake --build build
+```
 # Framework
 
 ## GUI
